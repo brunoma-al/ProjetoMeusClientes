@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_settings" type="id" />
+    <item name="nav_azul" type="id" />
+    <item name="nav_vermelho" type="id" />
+    <item name="nav_preto" type="id" />
+</resources>

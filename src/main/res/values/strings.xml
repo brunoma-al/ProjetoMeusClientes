@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">ProjetoMeusClientes</string>
+    <string name="app_name">Projeto Meus Clientes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cliente</string>
+    <string name="nav_header_subtitle">Dev Bruno</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sair</string>
+
+    <string name="modelo_fragment">Teste</string>
+
+    <string name="fragmento_preto">Modo Preto</string>
+    <string name="titulo_preto">Preto</string>
+    <string name="fragmento_vermelho">Modo Vermelho</string>
+    <string name="titulo_vermelho">Vermelho</string>
+    <string name="fragmento_azul">Modo Azul</string>
+    <string name="titulo_azul">Azul</string>
+    -
+    <string name="meu_perfil">Meu Perfil</string>
+
 </resources>
