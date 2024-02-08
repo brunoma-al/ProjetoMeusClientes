@@ -1,13 +1,44 @@
 package dev.android.bruno.projetomeusclientes.view;
 
-import androidx.annotation.NonNull;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
+import android.os.Bundle;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.viewmodel.CreationExtras;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import dev.android.bruno.projetomeusclientes.R;
+
 
 public class ModeloAzulFragment extends Fragment {
-    @NonNull
-    @Override
-    public CreationExtras getDefaultViewModelCreationExtras() {
-        return super.getDefaultViewModelCreationExtras();
+
+    View view;
+
+    public ModeloAzulFragment() {
     }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        view =  inflater.inflate(R.layout.fragment_azul, container, false);
+
+        TextView txtTitulo = view.findViewById(R.id.txtTitulo);
+
+        txtTitulo.setText(R.string.modelo_fragment);
+
+        // Trocar a cor da propriedade texto (setTextColor)
+        txtTitulo.setTextColor(ColorStateList.valueOf(Color.CYAN));
+
+        return view;
+    }
+
+
 }

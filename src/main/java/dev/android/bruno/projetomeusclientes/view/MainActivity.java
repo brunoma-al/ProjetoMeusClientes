@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             navigationView.setItemTextColor(ColorStateList.valueOf(Color.BLACK));
 
-            fragmentManager.beginTransaction().replace(R.id.content_fragment, new ModeloAzulFragment()).commit();
+            fragmentManager.beginTransaction().replace(R.id.content_fragment, new app.modelo.projetomeusclientes.view.ModeloAzulFragment()).commit();
 
         }
 
